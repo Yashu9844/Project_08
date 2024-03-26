@@ -14,11 +14,11 @@ const NavBar = () => {
         </div>
         <div className="flex items-center justify-between gap-5 ">
           {["Services","Our work","About us","Insights"].map((items,index)=>(
-            <a key={index}  className='text-medium font-md'>{items}</a>
+            <a key={index}  className='text-medium font-md font-custom1'>{items}</a>
           ))}
         </div>
-        <div className="flex items-center justify-between text-medium font-md">
-            <h1>Contacts Us</h1>
+        <div className="flex items-center justify-between text-medium font-md font-custom1">
+            <h1>Contacts us</h1>
            
         </div>
       
